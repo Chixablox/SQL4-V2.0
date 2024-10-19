@@ -11,8 +11,10 @@ dict_cond = {
     4 : 'Thursday',
     5 : 'Friday',
     6 : 'Saturday',
-    7 : 'Sunday'
+    0 : 'Sunday'
 }
+
+print(df.head(10))
 
 df['Weekday'] = df['Weekday'].map(dict_cond)
 
